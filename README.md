@@ -1,5 +1,7 @@
 # Battery Cell Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2580327.svg)](https://doi.org/10.5281/zenodo.2580327)
+
 This repository contains data files from experiments conducted on a 2013 Nissan Leaf battery cell. The purpose of the experiments was to development an equivalent circuit model of the cell. Specifications for the cell are given in the table shown below. Descriptions of the folders and files in this repository are provided in the following sections.
 
 | Cell specs        | Properties          |
@@ -70,9 +72,9 @@ $ python main.py --temp 3C
 
 ## Citation
 
-To cite this data in publications and presentations use:
+Click the blue DOI badge at the top of this README for citation options provided by Zenodo. Alternatively, cite this data in publications and presentations as:
 
 ```
 Gavin Wiggins, Srikanth Allu, and Hsin Wang. Battery cell data from a 2013
-Nissan Leaf. Oak Ridge National Laboratory. <DOI>.
+Nissan Leaf. Oak Ridge National Laboratory. https://doi.org/10.5281/zenodo.2580327.
 ```
