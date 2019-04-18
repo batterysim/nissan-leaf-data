@@ -51,23 +51,23 @@ Data files from charge/discharge cycling, HPPC, and discharge tests are in the `
 
 ### datalib
 
-Functions and modules for reading and analyzing the data files are available in the `datalib` Python package. This package is used by the `main.py` script to create plots of the data.
+Functions and modules for reading and analyzing the data files are available in the `datalib` Python package. This package is used by the `plot.py` script to create plots of the data.
 
-### main.py
+### plot.py
 
-Run `main.py` to view plots of the data. Available command line arguments are presented below:
+Run `plot.py` to view plots of the data. Available command line arguments are presented below:
 
 ```bash
 # plot voltage and current from the charge/discharge tests
-$ python main.py --cycle
+$ python plot.py cycle
 
 # plot voltage and current from the HPPC test
-$ python main.py --hppc
+$ python plot.py hppc
 
 # plot Bitrode and temperature data from 1C, 2C, 3C discharge tests
-$ python main.py --temp 1C
-$ python main.py --temp 2C
-$ python main.py --temp 3C
+$ python plot.py temp 1c
+$ python plot.py temp 2c
+$ python plot.py temp 3c
 ```
 
 ## Citation
